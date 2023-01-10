@@ -1,0 +1,94 @@
+/* float着地させる */
+.clearfix::after { 
+    content: '';
+    display: block; 
+    clear: both;
+}
+
+.header{
+    width: 400px;
+    height: 100px;
+    background-color: #141f40;
+}
+
+/* headerの子供 */
+.container{
+    display: flex;
+    width: 160px;
+    height: 60px;
+    background-color: white;
+    float: right;
+    margin: 20px;
+}
+/* headerの子供 */
+
+
+/* containerの子供 */
+.box1 {
+    width: 40px;
+    height: 40px;
+    background-color: #a9004b;
+    margin: 10px;
+}
+.box2 {
+    width: 40px;
+    height: 40px;
+    background-color: #a9004b;
+    margin: 10px 0;
+}
+.box3 {
+    width: 40px;
+    height: 40px;
+    background-color: #a9004b;
+    margin: 10px;
+}
+/* containerの子供 */
+
+
+.left{
+    width: 150px;
+    height: 250px;
+    background-color: #80bfa8;
+    float: left;
+}
+
+
+
+.right{
+    width: 250px;
+    height: 250px;
+    background-color: #8c2727;
+    float: left;
+}
+
+
+/* rightの子供 */
+.content1{
+    margin: 40px 60px 10px 40px;
+    width: 140px;
+    height: 40px;
+    border: 5px solid white;
+    background-color: #ff863f;
+}
+.content2{
+    margin: 0 60px 0 40px;
+    width: 140px;
+    height: 40px;
+    border: 5px solid white;
+    background-color: #ff863f;
+}
+.content3{
+    margin: 10px 60px 40px 40px;
+    width: 140px;
+    height: 40px;
+    border: 5px solid white;
+    background-color: #ff863f;
+}
+/* rightの子供 */
+
+
+.hooter{
+    width: 400px;
+    height: 100px;
+    background-color: #d98d30;
+}

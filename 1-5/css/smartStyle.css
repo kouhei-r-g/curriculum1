@@ -1,0 +1,33 @@
+
+@media screen and (max-width: 479px) {
+    .header{
+            width: 200px;
+            height: 200px;
+            display: flex;
+            justify-content: center;}
+    .container{
+               width: 60px;
+               height: 160px;
+               display: flex;
+               flex-direction: column;
+               justify-content: center;
+               align-items: center;
+               }
+    .main{width: 150px;}
+    .left{width: 200px;
+           }
+    .right{width: 200px;
+           height: 200px;
+           }
+    /* .content1{margin: 20px 30px 10px 30px;} */
+    .content1{width: 135px;
+              height: 35px;
+              margin: 20px 30px 10px 30px;}
+    .content2{width: 135px;
+              height: 35px;
+              margin: 0 30px;}
+    .content3{width: 135px;
+              height: 35px;
+              margin: 10px 30px 20px 30px;}
+    .hooter{width: 200px;}
+} 
